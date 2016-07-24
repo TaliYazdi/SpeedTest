@@ -1,0 +1,2 @@
+# SpeedTest
+Fast typing tester

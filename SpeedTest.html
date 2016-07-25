@@ -1,0 +1,40 @@
+<!doctype html5>
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "SpeedTest.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type = "text/javascript" src="SpeedTest.js"></script> 
+	</head>
+	<body onload = "loadPage()">
+		<header>
+			<h2>Touch Typing</h2>
+			<h4>In order to succeed, should practice!</h4>
+		</header>
+		<label>The text that you need to type:</label>
+		<section1 id = "section1" class = "sectionStyle">
+			
+		</section1 >
+		<label>You:</label>
+		<textarea id = "textarea" class = "sectionStyle"></textarea>
+		
+		<section3>
+			<div class = "statistics" >Statistics:</div>
+			<br/>
+			<li >Time elapsed:  <contant id = "timer">0</contant> </li>
+			<li >WPM:  <contant id = "WPM">0</contant> </li>
+			<li >Error:  <contant id = "error">0</contant> </li>
+			<li >Characters Typed:  <contant id = "chars">0</contant></li>
+		</section3>
+	
+	
+		<div class = "buttons">
+			<div class = "mistake" >Your mistakes:  <div class = "needToBe">([mistake]-[need to be])</div><div id = "mistake"></div> </div>
+			<button id = "PauseButton" >Pause</button>
+			<button id = "NewButton" >New</button>
+		</div>
+		
+		<div class = "lastDiv" >This site was made by: Tali Yazdi              © All Rights Reserved.</div>
+
+	</body>
+</html>
+
